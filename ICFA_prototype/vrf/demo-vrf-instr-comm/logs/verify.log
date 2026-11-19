@@ -1,0 +1,50 @@
+ 
+Current node
+start_addr: 0x8040384
+end_addr: 0x8040396
+type: call
+instrs: 8
+successors: ['0x8040334']
+adj_instr: 0x804039a
+log_node.dest_addr: 0xffffffab
+PUSH to shadow stack: 0x804039a
+ 
+Current node
+start_addr: 0x8040334
+end_addr: 0x8040344
+type: call
+instrs: 8
+successors: ['0x8040238']
+adj_instr: 0x8040348
+log_node.dest_addr: 0xffffffab
+PUSH to shadow stack: 0x8040348
+ 
+Current node
+start_addr: 0x8040238
+end_addr: 0x8040244
+type: uncond
+instrs: 7
+successors: ['0x804025e']
+adj_instr: 0x8040246
+log_node.dest_addr: 0xffffffab
+-----
+changed node
+start_addr: 0x804025e
+end_addr: 0x804026c
+type: call
+instrs: 5
+successors: ['0x80403bc']
+adj_instr: 0x8040270
+-----
+PUSH to shadow stack: 0x8040270
+ 
+Current node
+start_addr: 0x80403bc
+end_addr: 0x80403be
+type: cond
+instrs: 2
+successors: ['0x80403c4']
+adj_instr: 0x80403c0
+log_node.dest_addr: 0xffffffab
+--------- VERIFICATION FAILED --------- 
+--------------------------------------- 

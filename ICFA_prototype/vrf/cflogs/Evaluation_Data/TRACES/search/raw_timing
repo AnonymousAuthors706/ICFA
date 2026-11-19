@@ -1,0 +1,2825 @@
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x70c09bffbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.93761004460976 ms[0m
+[94mReceive report time: 0.14969969796948135 ms[0m
+[94mVerify Report Time: 45.4140660003759 ms[0m
+[94mGen. response time: 0.035447010304778814[0m
+[94mSend response time: 1.286083017475903[0m
+[94mTotal time: 280.44239594601095ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x7936525ff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.94621499953791 ms[0m
+[94mReceive report time: 0.14993485296145082 ms[0m
+[94mVerify Report Time: 42.28602995863184 ms[0m
+[94mGen. response time: 0.035536999348551035[0m
+[94mSend response time: 1.2627989635802805[0m
+[94mTotal time: 277.70850498927757ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x726e0abff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.78397901449353 ms[0m
+[94mReceive report time: 0.15075330098625273 ms[0m
+[94mVerify Report Time: 43.715933978091925 ms[0m
+[94mGen. response time: 0.09040103759616613[0m
+[94mSend response time: 1.2558050220832229[0m
+[94mTotal time: 280.13038501376286ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x77710c1fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.976643985603 ms[0m
+[94mReceive report time: 0.1512491590110585 ms[0m
+[94mVerify Report Time: 41.59793897997588 ms[0m
+[94mGen. response time: 0.06988196400925517[0m
+[94mSend response time: 1.3040660414844751[0m
+[94mTotal time: 278.1408629962243ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x70b44d7fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 83.01734999986365 ms[0m
+[94mReceive report time: 0.15160685498267412 ms[0m
+[94mVerify Report Time: 43.689866026397794 ms[0m
+[94mGen. response time: 0.03541703335940838[0m
+[94mSend response time: 1.26032397383824[0m
+[94mTotal time: 280.6136989966035ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x70b717bfbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.8723760205321 ms[0m
+[94mReceive report time: 0.15142159501556307 ms[0m
+[94mVerify Report Time: 42.02520800754428 ms[0m
+[94mGen. response time: 0.03540702164173126[0m
+[94mSend response time: 1.2388639734126627[0m
+[94mTotal time: 279.00245203636587ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x7124a23fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 83.04708602372557 ms[0m
+[94mReceive report time: 0.15005245502106845 ms[0m
+[94mVerify Report Time: 37.355505977757275 ms[0m
+[94mGen. response time: 0.034776050597429276[0m
+[94mSend response time: 1.2073729885742068[0m
+[94mTotal time: 273.02846498787403ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x77ae005fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 83.02651799749583 ms[0m
+[94mReceive report time: 0.15154108998831362 ms[0m
+[94mVerify Report Time: 40.83924397127703 ms[0m
+[94mGen. response time: 0.043451960664242506[0m
+[94mSend response time: 1.1942589771933854[0m
+[94mTotal time: 277.72919402923435ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x79089b3fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.9328409745358 ms[0m
+[94mReceive report time: 0.1505487840040587 ms[0m
+[94mVerify Report Time: 43.33014402072877 ms[0m
+[94mGen. response time: 0.0655340263620019[0m
+[94mSend response time: 1.2852710206061602[0m
+[94mTotal time: 279.1221190127544ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x71ab4f7fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.82071899157017 ms[0m
+[94mReceive report time: 0.15138457401189953 ms[0m
+[94mVerify Report Time: 44.76643103407696 ms[0m
+[94mGen. response time: 0.09032100206241012[0m
+[94mSend response time: 1.2572580599226058[0m
+[94mTotal time: 281.4616629621014ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x7edb323fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 83.03176698973402 ms[0m
+[94mReceive report time: 0.15093289996730164 ms[0m
+[94mVerify Report Time: 42.58353298064321 ms[0m
+[94mGen. response time: 0.038833997678011656[0m
+[94mSend response time: 1.1776270112022758[0m
+[94mTotal time: 279.1227500420064ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x72651d4ff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.95043400721624 ms[0m
+[94mReceive report time: 0.14824136102106422 ms[0m
+[94mVerify Report Time: 37.850772961974144 ms[0m
+[94mGen. response time: 0.05848100408911705[0m
+[94mSend response time: 1.1995990644209087[0m
+[94mTotal time: 271.1484789615497ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x70d9238ff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.81820395495743 ms[0m
+[94mReceive report time: 0.15047271002549678 ms[0m
+[94mVerify Report Time: 45.34124897327274 ms[0m
+[94mGen. response time: 0.06814801599830389[0m
+[94mSend response time: 1.375049992930144[0m
+[94mTotal time: 280.67195997573435ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x77baf39fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 83.23289797408506 ms[0m
+[94mReceive report time: 0.14846559398574755 ms[0m
+[94mVerify Report Time: 41.398792003747076 ms[0m
+[94mGen. response time: 0.0353159848600626[0m
+[94mSend response time: 1.1693320120684803[0m
+[94mTotal time: 274.98257998377085ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x70adb5cff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.87247596308589 ms[0m
+[94mReceive report time: 0.1508094480377622 ms[0m
+[94mVerify Report Time: 43.201261025387794 ms[0m
+[94mGen. response time: 0.0683490070514381[0m
+[94mSend response time: 1.277446048334241[0m
+[94mTotal time: 279.6873479965143ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x7b4642ffbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.88330701179802 ms[0m
+[94mReceive report time: 0.15108740201685578 ms[0m
+[94mVerify Report Time: 43.98697701981291 ms[0m
+[94mGen. response time: 0.06634503370150924[0m
+[94mSend response time: 1.2747609871439636[0m
+[94mTotal time: 280.16384900547564ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x7b4c678ff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.99814397469163 ms[0m
+[94mReceive report time: 0.1493191989720799 ms[0m
+[94mVerify Report Time: 41.69856902444735 ms[0m
+[94mGen. response time: 0.0464579788967967[0m
+[94mSend response time: 1.2145870132371783[0m
+[94mTotal time: 276.23922599013895ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x70f22adff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.83784100785851 ms[0m
+[94mReceive report time: 0.15059148496948183 ms[0m
+[94mVerify Report Time: 43.573273986112326 ms[0m
+[94mGen. response time: 0.07420097244903445[0m
+[94mSend response time: 1.219306024722755[0m
+[94mTotal time: 279.02243100106716ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x7d36035fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.92554499348626 ms[0m
+[94mReceive report time: 0.14908959495369345 ms[0m
+[94mVerify Report Time: 40.22382397670299 ms[0m
+[94mGen. response time: 0.05857902579009533[0m
+[94mSend response time: 1.2075689737685025[0m
+[94mTotal time: 274.06518202042207ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x74ec3fdfbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.93431595666334 ms[0m
+[94mReceive report time: 0.15060530399205163 ms[0m
+[94mVerify Report Time: 42.42416098713875 ms[0m
+[94mGen. response time: 0.0591999851167202[0m
+[94mSend response time: 1.2738380464725196[0m
+[94mTotal time: 278.3378019812517ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x70ff295fbaf0, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.96967699425295 ms[0m
+[94mReceive report time: 0.1510315510095097 ms[0m
+[94mVerify Report Time: 43.43407601118088 ms[0m
+[94mGen. response time: 0.05864002741873264[0m
+[94mSend response time: 1.2227970291860402[0m
+[94mTotal time: 280.12122999643907ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x72a40c9ff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 83.16373702837154 ms[0m
+[94mReceive report time: 0.1446535590221174 ms[0m
+[94mVerify Report Time: 22.443947033025324 ms[0m
+[94mGen. response time: 0.059031008277088404[0m
+[94mSend response time: 1.2350360630080104[0m
+[94mTotal time: 254.78130404371768ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x7c7474cff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.91280397679657 ms[0m
+[94mReceive report time: 0.148442895966582 ms[0m
+[94mVerify Report Time: 38.947023975197226 ms[0m
+[94mGen. response time: 0.08196098497137427[0m
+[94mSend response time: 1.8743279506452382[0m
+[94mTotal time: 273.573809012305ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x7d4681aff220, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.94512098655105 ms[0m
+[94mReceive report time: 0.1484020840143785 ms[0m
+[94mVerify Report Time: 38.93993695965037 ms[0m
+[94mGen. response time: 0.03501999890431762[0m
+[94mSend response time: 1.2326410505920649[0m
+[94mTotal time: 272.665373980999ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900
+STM32 STLink found at : /dev/ttyACM0
+------------ Parsing objects/NonSecure.mem --------------
+ns_bytes: 2448
+adding 080401f8 <__do_global_dtors_aux>:
+adding 0804021c <frame_dummy>:
+adding 08040238 <application>:
+adding 08040358 <MX_GPIO_Init>:
+adding 0804041c <SecureFault_Callback>:
+adding 08040438 <SecureError_Callback>:
+adding 08040454 <main>:
+adding 0804048c <Error_Handler>:
+adding 08040498 <HAL_MspInit>:
+adding 080404e0 <MemManage_Handler>:
+adding 080404e8 <UsageFault_Handler>:
+adding 080404f0 <SVC_Handler>:
+adding 080404fe <PendSV_Handler>:
+adding 0804050c <SysTick_Handler>:
+adding 08040518 <SystemInit>:
+adding 08040528 <SystemCoreClockUpdate>:
+adding 08040540 <Reset_Handler>:
+adding 0804054c <CopyDataInit>:
+adding 08040554 <LoopCopyDataInit>:
+adding 08040562 <FillZerobss>:
+adding 08040568 <LoopFillZerobss>:
+adding 08040576 <LoopForever>:
+adding 08040590 <ADC1_2_IRQHandler>:
+adding 08040592 <HAL_Init>:
+adding 080405c8 <HAL_InitTick>:
+adding 08040640 <HAL_IncTick>:
+adding 08040668 <__NVIC_SetPriorityGrouping>:
+adding 080406b0 <__NVIC_GetPriorityGrouping>:
+adding 080406cc <__NVIC_SetPriority>:
+adding 08040720 <NVIC_EncodePriority>:
+adding 08040788 <SysTick_Config>:
+adding 080407cc <HAL_NVIC_SetPriorityGrouping>:
+adding 080407e2 <HAL_NVIC_SetPriority>:
+adding 08040816 <HAL_SYSTICK_Config>:
+adding 08040830 <HAL_GPIO_Init>:
+adding 08040b30 <HAL_GPIO_WritePin>:
+adding 08040b60 <__libc_init_array>:
+adding 08040ba8 <_init>:
+adding 08040bb4 <_fini>:
+------------- CFG Nodes ---------------
+Start_addr: 0x8040238
+[96m--------------------------- NEW PROTOCOL ------------------------------[0m
+[96m
+Protocol Information:[0m
+[92mKey:[0m
+b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?'
+[92mChallenge[0m
+b'ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80'
+[92mMemory Hash[0m
+b'O\xc6\x1b\xc8\xf4\x14\xa2\xcc\x14\xf1\x10\xca$5\x1c\x91\xc5\x93!tO\xcd4 n\xddQT\xdb\x15\xd0i'
+[92mSerial Connection: [0m
+Serial<id=0x7d8558867130, open=True>(port='/dev/ttyACM0', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=10000000, xonxoff=False, rtscts=False, dsrdtr=False)
+
+
+[93mPRESS ENTER TO START PROTOCOL ('s' to stop)...
+[0m
+[92mStarting protocol ...
+[0m
+[92mSending Initial Message ...
+[0m
+Starting timer...
+[93mWaiting prv response ...
+[0m
+[92mData Received From prv : [0mb'aaaa' [92mData Expected: [0mb'aaaa'
+[92m
+Sending Challenge ...
+[0m
+ 
+[93m----------- WAITING FOR REPORT 0 -----------
+[0m
+b'REPO'
+cfa_report.IsFinal: F
+0x99 0xc  
+cfa_report.CFA_Log_Size: 3225
+ 
+ 
+[92m----------- REPORT 0 RECEIVED -----------
+[0m
+[92mCFA Log Size :[0m3225
+[92mMemory Hash:[0m
+
+[92mSignature:[0m
+b'\xb7\xc2\xea\xd11\xf3\x9f\xab!\x81\x0e\x90\xd3\xa5\x86\x8c\x15\x86s\xa3\xe1.+\x81\x04\x8e\xe4`:\xb6:q\x08\x81\xa6\xb9&\x15\xb1\x17\xc5d\xeef\x1a\x81\x06RD4\xf6\xee\x9a\x0f\xaa>\xd5\xe0\x12\x18po<\xc2'
+[92mIsFinal:[0m
+F
+[92m
+Final Report Received ...
+[0m
+------------- VERIFY ---------------
+Validating MAC...
+INVALID MAC
+Validating CFLog...
+VALID CFLOG
+[93mReport Accepted![0m
+
+[94mmode: aud[0m
+[94mWaiting for prv: 82.94977701734751 ms[0m
+[94mReceive report time: 0.1495082619949244 ms[0m
+[94mVerify Report Time: 42.25700703682378 ms[0m
+[94mGen. response time: 0.060113961808383465[0m
+[94mSend response time: 1.2122010230086744[0m
+[94mTotal time: 276.94248902844265ms
+[0m
+---------------------------------------------
+----------
+Processing logs
+	Processing '../cflogs/0.cflog'
+Cant find 1
+Total CF events: 3225
+Total CFlog bytes: 12900

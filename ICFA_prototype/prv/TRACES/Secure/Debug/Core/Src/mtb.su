@@ -1,0 +1,2 @@
+../Core/Src/mtb.c:17:5:mtb_enable	24	static
+../Core/Src/mtb.c:40:5:mtb_disable	4	static

@@ -1,0 +1,7 @@
+../Core/Src/secure_nsc.c:54:20:SECURE_RegisterCallback	6
+../Core/Src/secure_nsc.c:75:20:SECURE_RunCallback	1
+../Core/Src/secure_nsc.c:80:20:SECURE_Initialize_CFA_engine	1
+../Core/Src/secure_nsc.c:85:20:SECURE_Initialize_Attestation	1
+../Core/Src/secure_nsc.c:91:21:SECURE_run_attestation_wait_mode	1
+../Core/Src/secure_nsc.c:96:20:SECURE_record_output_data	1
+../Core/Src/secure_nsc.c:101:42:SECURE_log_data	1
